@@ -25,7 +25,7 @@ function handle_pub(reachable) {
 		elem.innerHTML = `
 			<div class="alert warning">
 				<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-				Status Page Unavailable
+				Public Status Page Unavailable
 			</div>
 			<img src="503.jpg" alt="503 error: Temporarily Unavailable"></iframe>
 		`;
