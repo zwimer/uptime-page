@@ -1,0 +1,67 @@
+html {
+	overflow: auto;
+}
+
+html, body, iframe {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+iframe {
+	width: 100%;
+	display: block;
+	border: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Columns */
+
+.container {
+	display:flex;
+	min-width: 0;
+}
+
+.column {
+	flex:1;
+	height:100vh;
+	overflow: auto;
+}
+
+.delimed + .delimed {
+	border-left: 2px solid black;
+}
+
+.delimed:last-child:after {
+	border-right: none;
+}
+
+/* Banners */
+
+.alert {
+	top: 0;
+	height: auto;
+	padding: 20px;
+	font-size: 40px;
+	text-align: center;
+	background-color: #ff9800;
+	color: white;
+}
+
+.closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+	color: black;
+}
