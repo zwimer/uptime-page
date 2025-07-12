@@ -1,6 +1,6 @@
 // URLs (reversed to stop 'dumb' web-crawlers from being annoying)
 
-const pub_rev = "cilbup/sutats/moc.remiwz.tneculsnart.emitpu//:sptth"
+const pub_rev = "cilbup/sutats/moc.remiwz.tneculsnart-emitpu//:sptth"
 const vpn_rev = "tseug/sutats/moc.remiwz.oyrc.emitpu//:sptth"
 const priv_rev = "nom-vres-virp/sutats/moc.remiwz.oyrc.emitpu.virp//:sptth"
 
